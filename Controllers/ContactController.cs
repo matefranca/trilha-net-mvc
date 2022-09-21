@@ -64,5 +64,15 @@ namespace trilha_net_mvc.Controllers
 
             return RedirectToAction(nameof(Index));           
         }
+
+        public IActionResult Details(int id)
+        {
+            var contact = _context.Contacts.Find(id);
+
+            if (contact == null)
+                return RedirectToAction(nameof(Index));
+
+            return View(contact);
+        }
     }
 }

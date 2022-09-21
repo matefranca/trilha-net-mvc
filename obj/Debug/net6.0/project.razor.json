@@ -16298,6 +16298,11 @@
   "RootNamespace": "trilha_net_mvc",
   "Documents": [
     {
+      "FilePath": "d:\\Matheus\\Cursos\\DIO\\trilha-net-mvc\\Views\\Contact\\Details.cshtml",
+      "TargetPath": "Views\\Contact\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Matheus\\Cursos\\DIO\\trilha-net-mvc\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
