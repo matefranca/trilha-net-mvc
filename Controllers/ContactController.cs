@@ -74,5 +74,26 @@ namespace trilha_net_mvc.Controllers
 
             return View(contact);
         }
+
+        public IActionResult Delete(int id)
+        {
+            var contact = _context.Contacts.Find(id);
+
+            if (contact == null)
+                return RedirectToAction(nameof(Index));
+
+            return View(contact);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(Contact contact)
+        {
+            var contactTable = _context.Contacts.Find(contact.Id);
+
+            _context.Contacts.Remove(contactTable);
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
