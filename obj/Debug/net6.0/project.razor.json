@@ -16318,6 +16318,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Matheus\\Cursos\\DIO\\trilha-net-mvc\\Views\\Contact\\Delete.cshtml",
+      "TargetPath": "Views\\Contact\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Matheus\\Cursos\\DIO\\trilha-net-mvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -16333,8 +16338,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Matheus\\Cursos\\DIO\\trilha-net-mvc\\Views\\Contact\\Edit.cshtml",
+      "TargetPath": "Views\\Contact\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Matheus\\Cursos\\DIO\\trilha-net-mvc\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Matheus\\Cursos\\DIO\\trilha-net-mvc\\Views\\Contact\\Create.cshtml",
+      "TargetPath": "Views\\Contact\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],

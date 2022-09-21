@@ -14,6 +14,6 @@ namespace trilha_net_mvc.Context
             
         }
 
-        public DbSet<Contact> contacts { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
     }
 }
